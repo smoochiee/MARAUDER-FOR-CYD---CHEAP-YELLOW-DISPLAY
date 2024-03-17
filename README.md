@@ -135,11 +135,21 @@
 ![IDE](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/3e767abc-c7d0-4e01-a67d-6de825e26af9)
 
 
+## MAKING BIN FILE IF YOU NEED  GO TO `SKETCH` TAB AND SELECT `EXPORT COMPILED BINARY`
+ ![bin](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/31e7d53c-2002-4f02-a1b4-72abdf77b28e)
+
+ - BUILD OUTPUT IS ON BUILD FOLDER 
+   
+
+
+![buildbin](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/92622215-f8ad-48bf-9053-a6ab1ff7fc44)
+
 
 # IF YOU HAVE ERRORS SEE [MARAUDER WIKI FAQ](https://github.com/justcallmekoko/ESP32Marauder/wiki/faq)
 
 
-      
+     
+
 # DONATION
 **If you like you can donate to MY PAYPAL ACCOUNT :**
 
