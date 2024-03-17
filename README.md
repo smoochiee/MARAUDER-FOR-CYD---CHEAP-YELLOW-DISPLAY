@@ -2,23 +2,22 @@
 **This is a tutorial on how you port marauder to your cyd devices**
 
 ---
-## PREPARING IDE SET UP
+## PREPARING IDE SET UP  `IDE 2.2.1`
 1. Install and open the the latest release of Arduino IDE
 2. In the Arduino IDE, go to File>Preferences
 3. Add the following URLs to Additional Boards Manager UR
 - https://dl.espressif.com/dl/package_esp32_index.json
 - https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
 4. Go to Tools>Board>Boards Manager, search for esp32 and install esp32 by Espressif Systems
-  - Make sure it is version `2.0.11`
-5. Install the CP210X Drivers
-6. INSTALL THE [ CH340X Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
+  - Make sure it is version `2.0.10`
+5. INSTALL THE [ CH340X Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
 ---
 ## Multiple Definition of ieee80211_raw_frame_sanity_check 
  WE NEED TO EDIT ESP32 BOARD `platform.txt`
 - OPEN ANY FOLDER ON YOUR DESKTOP
 - COPY AND PASTE ON ADDRESS BAR SEE PICTURE BELOW :
--       C:\Users\USERNAME\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11
+-       C:\Users\USERNAME\AppData\Local\Arduino15\packages\esp32\hardware\esp32
 - NOTE!!! YOU NEED TO CHANGE `USERNAME` ACCORDING TO YOUR username see  :
 ![copy paste](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/0c5fbf73-f3e2-49dc-81dd-1c0571941c3c)
 
@@ -41,7 +40,7 @@
 
 
 
-## LIBRARY NEEDED FOR INSTALLATION 
+## LIBRARY NEEDED FOR INSTALLATION   
 [LIBRARIES](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/blob/main/libraries.zip) download and extra to your arduino library folder like this picture :
 ![libraries](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/019e8df8-b1ba-4f48-9980-d94c43c0c3df)
 
@@ -63,6 +62,9 @@
 ---
 ## SOURCE CODE OF MARAUDER
 1. GO TO [MARAUDER RELEASE](https://github.com/justcallmekoko/ESP32Marauder/releases) DOWNLOAD LATEST RELEASE
+![SC](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/d7b4e7c9-09ac-420c-8c30-687de588ea16)
+
+   
 2. UNZIP SOURCE CODE.....
 
 
@@ -119,11 +121,31 @@
 ---
   
 
-# SETTING UP IDE FOR COMPILATION  GO TO ` TOOLS `TAB
+## SETTING UP IDE FOR COMPILATION  GO TO ` TOOLS `TAB
 
-+ FOR BOARDS WE CHOOSE 
+- FOR BOARDS WE CHOOSE `LOLIN D32`
+- FOR PORT DEPENDS ON YOUR VALUE `COM#` ON YOUR DEVICE MANAGER
+
+  
+  ![COM PORT](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/7594ebbc-f253-4c9d-ae16-6afad7ae95fd)
+- PARTITION SCHEME SET TO MINIMAL SPIFFS (LARGE APP WITH OTA)
+
+
+![IDE](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/3e767abc-c7d0-4e01-a67d-6de825e26af9)
+
+
+
+# IF YOU HAVE ERRORS SEE [MARAUDER WIKI FAQ](https://github.com/justcallmekoko/ESP32Marauder/wiki/faq)
+
+
       
+# DONATION
+**If you like you can donate to MY PAYPAL ACCOUNT :**
 
+
+[PAYPAL](https://paypal.me/smoochieelee?country.x=PH&locale.x=en_US)
+or
+[GCASH](https://github.com/smoochiee/Ble-jammer/blob/main/GCash-MyQR-16032024181536.PNG.jpg)
 
 
 
