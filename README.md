@@ -1,5 +1,11 @@
-# MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY
-**This is a tutorial on how you port marauder to your cyd devices**
+# **MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY**
+
+
+##  **This is a tutorial on how you port marauder to your cyd devices**
+
+### If you want a Webflash Installer go to [Fr4nkFletcher](https://github.com/Fr4nkFletcher/ESP32-Marauder-Cheap-Yellow-Display)
+
+
 
 ---
 ## PREPARING IDE SET UP  `IDE 2.2.1`
@@ -148,6 +154,12 @@
 # IF YOU HAVE ERRORS SEE [MARAUDER WIKI FAQ](https://github.com/justcallmekoko/ESP32Marauder/wiki/faq)
 
 
+## Acknowledgments
+
+A big shoutout to the creators and supporters of the ESP32 Cheap Yellow Display project and the community Discord, 
+especially
+[Fr4nkFletcher](https://github.com/Fr4nkFletcher/ESP32-Marauder-Cheap-Yellow-Display) and [ggaljoen](https://github.com/ggaljoen) for Tft_espi Library. 
+And of course JustCallMeKoko for the foundational work on the ESP32 Marauder.
      
 
 # DONATION
