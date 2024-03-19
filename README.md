@@ -151,6 +151,10 @@
 ![buildbin](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/92622215-f8ad-48bf-9053-a6ab1ff7fc44)
 
 
+
+## FOR MODDING SPLASH SCREEN GO TO [MARAUDER SPLASH MOD](https://github.com/smoochiee/esp32-Marauder-mod-CYD)
+
+
 # IF YOU HAVE ERRORS SEE [MARAUDER WIKI FAQ](https://github.com/justcallmekoko/ESP32Marauder/wiki/faq)
 
 
@@ -159,7 +163,8 @@
 A big shoutout to the creators and supporters of the ESP32 Cheap Yellow Display project and the community Discord, 
 especially
 [Fr4nkFletcher](https://github.com/Fr4nkFletcher/ESP32-Marauder-Cheap-Yellow-Display) and [ggaljoen](https://github.com/ggaljoen) for Tft_espi Library. 
-And of course JustCallMeKoko for the foundational work on the ESP32 Marauder.
+And of course JustCallMeKoko for the foundational work on the ESP32 Marauder. 
+THANK YOU `ATOMNFT.ETH` FOR DONATIONS.
      
 
 # DONATION
