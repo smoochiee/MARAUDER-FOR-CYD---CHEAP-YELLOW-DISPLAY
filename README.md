@@ -29,16 +29,20 @@
 
 
 1. With any text editor open `platform.txt`
-2. Add `-w` to the following compiler settings
+2. Add `-w` to the following compiler settings (add like example picture)
+   
 - `build.extra_flags.esp32`
 - `build.extra_flags.esp32s2`
 - `build.extra_flags.esp32s3`
 - `build.extra_flags.esp32c3`
-3. Add `-zmuldefs` to the following compiler settings
+- ![plat](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/69d8081c-dad2-40ff-b2b2-9945029fad8f)
+
+3. Add `-zmuldefs` to the following compiler settings (add like example picture)
 - `compiler.c.elf.libs.esp32`
 - `compiler.c.elf.libs.esp32s2`
 - `compiler.c.elf.libs.esp32s3`
 - `compiler.c.elf.libs.esp32c3`
+- ![com](https://github.com/smoochiee/MARAUDER-FOR-CYD---CHEAP-YELLOW-DISPLAY/assets/30816448/07b119c4-84b7-460d-9d77-3242ad116bef)
 
 
 ---
